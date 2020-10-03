@@ -1,0 +1,62 @@
+.day-count {
+
+}
+
+.date {
+    font-weight: 600 !important;
+    color: lightgray;
+}
+
+.date > span {
+    color: #111;
+}
+
+.completed-btn {
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 800;
+    color: rgba(17, 17, 17, 0.753);
+    letter-spacing: 4px;
+    background: lightgray;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.reset-btn {
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    cursor: pointer;
+    background:rgba(255, 0, 0, 0.678);
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.reset-btn:hover, .completed-btn:hover {
+    opacity: 0.5;
+    transition: all 1s ease;
+}
+
+h2 {
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+h2 > span {
+    color: rgba(255, 0, 0, 0.678);
+    font-weight: 800;
+}
